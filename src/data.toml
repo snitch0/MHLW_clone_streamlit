@@ -1,0 +1,9 @@
+[url]
+pcr_tested_daily = "https://www.mhlw.go.jp/content/pcr_tested_daily.csv"
+pcr_case_daily = "https://www.mhlw.go.jp/content/pcr_case_daily.csv"
+newly_confirmed_cases_daily = "https://covid19.mhlw.go.jp/public/opendata/newly_confirmed_cases_daily.csv"
+deaths_cumulative_daily = "https://covid19.mhlw.go.jp/public/opendata/deaths_cumulative_daily.csv"
+requiring_inpatient_care_etc_daily = "https://covid19.mhlw.go.jp/public/opendata/requiring_inpatient_care_etc_daily.csv"
+severe_cases_daily = "https://covid19.mhlw.go.jp/public/opendata/severe_cases_daily.csv"
+newly_confirmed_cases_per_100_thousand_population_daily = "https://covid19.mhlw.go.jp/public/opendata/newly_confirmed_cases_per_100_thousand_population_daily.csv"
+newly_confirmed_cases_detail_weekly = "https://covid19.mhlw.go.jp/public/opendata/newly_confirmed_cases_detail_weekly.csv"
