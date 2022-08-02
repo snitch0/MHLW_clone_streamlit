@@ -55,7 +55,7 @@ def plot_generation_severe_cases(url: str, prefec_order: int):
             .stack()\
             .to_frame()\
             .reset_index()\
-            .set_index(["Week", "Generation", "N"])\
+            .set_axis(["Week", "Generation", "N"], axis=1)\
             .assign(N=lambda x: pd.to_numeric(x.N))
 
         s_gen = [s.split(" ") for s in dfc["Generation"]]
